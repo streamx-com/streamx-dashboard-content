@@ -1,0 +1,7 @@
+apiVersion: streamx.com/v1alpha1
+kind: ContentFragment
+metadata:
+  name: fragment
+  namespace: streamx-dashboard
+spec:
+  content: "To jest przykładowa zawartość"
