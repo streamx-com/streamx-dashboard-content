@@ -1,4 +1,4 @@
-apiVersion: streamx.com/v1alpha1
+apiVersion: dashboard.streamx.com/v1alpha1
 kind: ContentFragment
 metadata:
   name: fragment
