@@ -1,0 +1,14 @@
+apiVersion: "dashboard.streamx.com/v1alpha1"
+kind: "ProjectTemplate"
+metadata:
+  name: "streamx-anothers-project-template"
+spec:
+  name: "Streamx for ANOTHER  Project Template"
+  description: "Integrates AEM authored EDS project with StreamX"
+  tags:
+    - "aem"
+    - "asdaseds"
+    - "universal editor"
+    - "search"
+  repository: "https://github.com/streamx-hub/streamx-eds-project-template.git"
+  branch: "main"

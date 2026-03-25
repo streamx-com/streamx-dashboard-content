@@ -1,0 +1,6 @@
+apiVersion: dashboard.streamx.com/v1alpha1
+kind: ContentFragment
+metadata:
+  name: another-fragment
+spec:
+  content: "To jest przykładowa zawartość"
