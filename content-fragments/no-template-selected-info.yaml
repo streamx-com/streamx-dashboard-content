@@ -3,27 +3,31 @@ kind: ContentFragment
 metadata:
   name: no-template-selected-info
 spec:
-  content: "# Project Selection Guide
+  content: |
+    # Project Selection Guide
 
-## Available Projects
-Projects are available on **Git** and come in two main types:
+    ## Available Projects
+    Projects are available on **Git** and come in two main types:
 
-### 1. Pre-defined Templates
-- These are **read-only projects**.
-- You **cannot modify** the project itself (e.g., mesh definitions, clusters, configuration).
-- You **can create a new project** from a template and attach your own data sources.
-- Templates are a quick way to start without creating everything from scratch.
+    ### 1. Pre-defined Templates
+    - These are **read-only projects**.
+    - You **cannot modify** the project itself (e.g., mesh definitions, clusters, configuration).
+    - You **can create a new project** from a template and attach your own data sources.
+    - Templates are a quick way to start without creating everything from scratch.
 
-### 2. Custom Projects
-- You can create a **custom project** in two ways:
-  1. **From scratch** – start a project with no template.
-  2. **From a template** – fork a template and make your own modifications.
-- A custom project allows you to:
-  - Modify the project structure, mesh definitions, clusters, configurations.
-  - Attach your own Git repository and make full changes.
+    ### 2. Custom Projects
+    - You can create a **custom project** in two ways:
+      1. **From scratch** – start a project with no template.
+      2. **From a template** – fork a template and make your own modifications.
+    - A custom project allows you to:
+      - Modify the project structure, mesh definitions, clusters, configurations.
+      - Attach your own Git repository and make full changes.
 
-## Changing Project Settings
-- At any time, you can **change your project’s Git repository** in the project settings.
-- This allows you to switch a pre-defined template project into a **custom project** by forking it and attaching your own repository.
+    ## Changing Project Settings
+    - At any time, you can **change your project’s Git repository** in the project settings.
+    - This allows you to switch a pre-defined template project into a **custom project** by forking it and attaching your own repository.
 
----"
+    ---
+    **Summary:**  
+    - **Template projects** → read-only, cannot modify core definitions, can attach your own data.  
+    - **Custom projects** → fully editable, can start from scratch or fork a template, attach your Git repository.
