@@ -1,7 +1,7 @@
 apiVersion: dashboard.streamx.com/v1alpha1
 kind: ContentFragment
 metadata:
-  name: no-template-selected-info
+  name: custom-template-selected-info
 spec:
   content: |
     ## Custom Project Setup
