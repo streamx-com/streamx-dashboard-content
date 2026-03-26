@@ -1,0 +1,23 @@
+apiVersion: dashboard.streamx.com/v1alpha1
+kind: ContentFragment
+metadata:
+  name: no-template-selected-info
+spec:
+  content: |
+    ## Custom Project Setup
+    
+    A custom project is a Git repository organized in a specific structure.
+    
+    ### Required Structure
+    The repository should include:
+    - `mesh/` directory  
+      - `config.properties` – contains cloud project configuration settings  
+      - `mesh.yaml` – defines the mesh configuration  
+    
+    ### Getting Started
+    It is recommended to review one of the existing template projects and use it as a base for creating your custom project.
+    
+    ### Requirements
+    To create a project, you will need:
+    - An existing Git repository  
+    - (Optional) An RSA private key if the repository should allow write access (not read-only)
