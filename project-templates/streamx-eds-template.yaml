@@ -11,4 +11,4 @@ spec:
     - "universal editor"
     - "search"
   repository: "https://github.com/streamx-hub/streamx-eds-project-template.git"
-  branch: "main"
+  branch: "feature/streamx2"
