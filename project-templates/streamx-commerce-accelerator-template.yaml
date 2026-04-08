@@ -1,0 +1,12 @@
+apiVersion: "dashboard.streamx.com/v1alpha1"
+kind: "ProjectTemplate"
+metadata:
+  name: "streamx-commerce-accelerator-template"
+spec:
+  name: "Commerce Accelerator Project Template"
+  description: "Commerce website powered by StreamX"
+  tags:
+    - "commerce"
+    - "pim"
+  repository: "https://github.com/streamx-hub/streamx-commerce-accelerator-template.git"
+  branch: "main"
