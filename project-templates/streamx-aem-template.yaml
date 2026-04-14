@@ -1,0 +1,13 @@
+apiVersion: "dashboard.streamx.com/v1alpha1"
+kind: "ProjectTemplate"
+metadata:
+  name: "streamx-aem-template"
+spec:
+  name: "AEM Project Template"
+  description: "Integrates AEM project with StreamX"
+  tags:
+    - "aem"
+    - "static site"
+    - "search"
+  repository: "https://github.com/streamx-hub/streamx-aem-template.git"
+  branch: "main"
