@@ -7,7 +7,7 @@ spec:
   description: "Integrates AEM project with StreamX"
   tags:
     - "aem"
-    - "static site"
+    - "edge delivery"
     - "search"
   repository: "https://github.com/streamx-hub/streamx-aem-template.git"
   branch: "main"
